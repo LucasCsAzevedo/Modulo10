@@ -1,5 +1,3 @@
-# Modulo10
-
 # GIT
 
 ## Conceitos de versionamento
@@ -20,11 +18,34 @@ Arquivo B | Versão 1 | Versão 2
 ## Criar uma conta no GitHub
 
 ## Clonar projeto
+Git Clone https://github.com/LucasCsAzevedo/Modulo10.git
+
 
 
 ## Commits
 Informação de alteração
 - Após testado todo seu código
+- Primeiro utilizo o git add *
+- Depois utilizo o git commit -m 'Mensagem que quero que apareça no commit'
+- Uso o git push para enviar as alterações para o repositório
+- Uso o git pull para trazer arquivos do site para a máquina
 
 ## GitFlow
 Fluxo do Git
+
+### Branchs
+São Ramificações / Versões Paralelas
+
+- Main / Master (Principal, quando o projeto é publicado)
+- Develop ou Dev (Versão aonde eu vou alterar o que for preciso sem modificar a Main)
+- DOD "Definition of Done" (Definição de Conclusão): Critérios de aceite
+- Versionamento 0 (Beta). 1 (Atualização Maior). 1 (Correção de bugs, coisas mais simples)
+
+git checkout -b 'Nome' (Cria uma Branch)
+git checkout 'Nome da Branch' (Muda de Branch)
+
+
+### Merge
+Mescla de branchs
+
+git merge (Nome da Branch, se estou na Dev e coloco o Nome "main" vai mesclar o que fiz na Dev com a main)
