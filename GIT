@@ -28,6 +28,7 @@ Informação de alteração
 - Primeiro utilizo o git add *
 - Depois utilizo o git commit -m 'Mensagem que quero que apareça no commit'
 - Uso o git push para enviar as alterações para o repositório
+- Uso o git pull para trazer arquivos do site para a máquina
 
 ## GitFlow
 Fluxo do Git
