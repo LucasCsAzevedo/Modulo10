@@ -25,6 +25,8 @@ Git Clone https://github.com/LucasCsAzevedo/Modulo10.git
 ## Commits
 Informação de alteração
 - Após testado todo seu código
+- Primeiro utilizo o git add *
+- Depois utilizo o git commit -m 'Mensagem que quero que apareça no commit'
 
 ## GitFlow
 Fluxo do Git
